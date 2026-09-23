@@ -1,0 +1,13 @@
+# dbt関連のビルド成果物やログ
+target/
+dbt_packages/
+logs/
+
+# DuckDBのデータベースファイル
+*.duckdb
+*.duckdb.wal
+
+# 環境依存ファイル
+profiles.yml
+
+*.csv

@@ -1,0 +1,1 @@
+SELECT * FROM "dev"."main"."eria_jukyu_all_area"

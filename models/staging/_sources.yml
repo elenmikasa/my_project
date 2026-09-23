@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: area_demand_last_month
+    tables:
+      - name: 北海道
+        meta:
+          external_location: "area_demand_last_month/eria_jukyu_*_01.csv"
+      - name: 東京
+        meta:
+          external_location: "area_demand_last_month/eria_jukyu_*_03.csv"
+      - name: 関西
+        meta:
+          external_location: "area_demand_last_month/eria_jukyu_*_06.csv"
+      - name: 九州
+        meta:
+          external_location: "area_demand_last_month/eria_jukyu_*_09.csv"
